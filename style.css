@@ -15,8 +15,7 @@ header p {
 }
 
 body {
-    background-color: #8ac3b7
-    
+    background-color: #8ac3b7 
 }
 
 h2 {
@@ -45,7 +44,7 @@ section {
     display: flex;
     flex-wrap:wrap
     width: 100%;
-    align-items:first;
+    text-indent: 0%;
 
 }
 
