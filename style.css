@@ -5,7 +5,14 @@ body {
 
 header {
     text-align: center;
-    text-indent: 0;
+}
+
+nav {
+    text-align: left;
+}
+
+nav a {
+    color: navy;
 }
 
 h1 {
@@ -36,18 +43,14 @@ p {
     text-indent:5%;
 }
 
-section {
-    padding:5px;
-}
-.highlights {
-    display: flex;
-    flex-wrap:wrap;
-    width: 100%;
-    text-indent: 0%;
 
+.tools {
+    background-color: #f7e0fa;
+}
+footer {
+    text-align: right;
 }
 
-.highlights .content {
-    box-sizing: border-box;
-    border-radius: 1;
+footer a {
+    color: navy;
 }
