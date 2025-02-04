@@ -41,7 +41,7 @@ section {
 }
 .highlights {
     display: flex;
-    flex-wrap:wrap
+    flex-wrap:wrap;
     width: 100%;
     text-indent: 0%;
 
