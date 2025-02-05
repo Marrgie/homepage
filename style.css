@@ -17,12 +17,12 @@ nav a {
 
 h1 {
     color: darkslategray;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 header p {
-    text-indent:0;
-    font-style:italic
+    text-indent: 0;
+    font-style: italic
 }
 
 
@@ -30,7 +30,7 @@ h2 {
     color: #1460aa;
     font-size: x-large;
     text-indent: 3%;
-    }
+}
 
 h3 {
     color: #0a2b4d;
@@ -40,17 +40,34 @@ h3 {
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-indent:5%;
+    text-indent: 5%;
 }
 
 
-.tools {
-    background-color: #f7e0fa;
-}
+
 footer {
     text-align: right;
 }
 
 footer a {
     color: navy;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    text-indent: 0%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display:block;
+    clear: both;
+}
+
+.tools {
+    width: 100%;
+    background-color: blanchedalmond;
+    float: left;
 }
