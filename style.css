@@ -2,12 +2,36 @@ body {
     background-color: #8ac3b7;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: block;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
 }
 
-header {
+#top {
+    height: 200px;
+    position: relative;
+    text-shadow: white 3px -3px 7px;
+}
+
+.bg-image {
+    background-image: url("progress2.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+}
+
+.bg-text {
+    position:absolute;
+    top:50%;
+    left:50%;
     text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 2;
+    width: 80%;
 }
-
 nav {
     overflow: hidden;
     background-color: rgb(232, 238, 238);
@@ -26,9 +50,10 @@ h1 {
     font-size: xx-large;
 }
 
-header p {
+#top p {
     text-indent: 0;
-    font-style: italic
+    font-style: italic;
+    font-size: medium;
 }
 
 
