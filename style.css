@@ -15,7 +15,7 @@ body {
 }
 
 .bg-image {
-    background-image: url("progress2.jpg");
+    background-image: url("pastel_circles.png");
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -56,6 +56,9 @@ h1 {
     font-size: medium;
 }
 
+section {
+    padding: 20px;
+}
 
 h2 {
     color: #1460aa;
@@ -111,8 +114,8 @@ footer a {
     float: left;
     background-color: #b2d4f6;
     width: 100%;
-    padding: 20px;
 }
+
 
 .flexRow {
     box-sizing: border-box;
@@ -124,12 +127,12 @@ footer a {
 }
 
 .side {
-    flex: 40%;
+    flex: 60%;
     padding: 20px;
 }
 
 .picture {
-    flex:60%;
+    flex:40%;
     padding: 20px;
     align-content: right;
     }
