@@ -120,6 +120,7 @@ footer a {
 
 .flexRow {
     display:flex;
+    max-height: 600px;
 }
 
 .side {
@@ -134,6 +135,8 @@ footer a {
     }
 
 img {
-    width:100%;
-    height: auto
+    width: 100%;
+    height:auto;
+    position:relative;
+    right: 20px;
     }
