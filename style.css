@@ -19,8 +19,9 @@ body {
     height: 100%;
     background-position: center;
     background-size: cover;
-    filter: blur(2px);
+    width: 100%;
 }
+
 
 .bg-text {
     position:absolute;
@@ -32,6 +33,12 @@ body {
     z-index: 2;
     width: 80%;
 }
+
+h1 {
+    color: darkslategray;
+    font-size: xx-large;
+}
+
 nav {
     overflow: hidden;
     background-color: rgb(232, 238, 238);
@@ -45,10 +52,6 @@ nav a {
     padding: 20px;
 }
 
-h1 {
-    color: darkslategray;
-    font-size: xx-large;
-}
 
 #top p {
     text-indent: 0;
@@ -75,7 +78,6 @@ h3 {
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-
 
 
 footer {
@@ -119,27 +121,38 @@ footer a {
 
 .flexRow {
     box-sizing: border-box;
-}
-
-.flexRow {
     display:flex;
     max-height: 600px;
 }
 
 .side {
-    flex: 60%;
+    flex: 40%;
     padding: 20px;
 }
 
 .picture {
-    flex:40%;
+    flex:60%;
     padding: 20px;
     align-content: right;
     }
 
-img {
+.picture img {
     width: 100%;
     height:auto;
     position:relative;
     right: 20px;
     }
+
+.gallery {
+    margin: 20px auto;
+  }
+
+.gallery img {
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    border: 2px;
+    border-style: dashed;
+    border-color: white;
+    margin: 10px;
+}
